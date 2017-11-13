@@ -30,7 +30,7 @@ public class assignment {
         String answer = input.nextLine();
         answer=answer.toUpperCase();
        if ("1".equals(answer)){
-           System.out.println("Your order will arrives within 20mins");
+           System.out.println("Your order will arrives within 20 mins");
            System.out.println("Do you want continue:[YES] Or [NO]");
            end=input.nextLine();
            end=end.toUpperCase();
