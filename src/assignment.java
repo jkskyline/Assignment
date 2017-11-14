@@ -30,10 +30,21 @@ public class assignment {
         String answer = input.nextLine();
         answer=answer.toUpperCase();
        if ("1".equals(answer)){
+           
+           System.out.println("Please Enter Your Order ID :");
+           String orderID=input.nextLine();
+           if(orderID.isEmpty()){
+               System.out.println("Invalid Input");
+            System.out.println("Do you want continue:[YES] Or [NO]");
+           end=input.nextLine();
+           end=end.toUpperCase();
+           }
+           else{
            System.out.println("Your order will arrives within 20 mins");
            System.out.println("Do you want continue:[YES] Or [NO]");
            end=input.nextLine();
            end=end.toUpperCase();
+           }
        }
        else{
            System.out.println("Thanks for visited our restaurant");
