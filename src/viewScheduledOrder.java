@@ -12,9 +12,6 @@ import java.util.Scanner;
  */
 public class viewScheduledOrder {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // TODO code application logic here
